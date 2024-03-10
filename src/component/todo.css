@@ -1,0 +1,115 @@
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    /* background-color: blue; */
+    color: white;
+}
+
+.todo{
+    
+    height: fit-content;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.inputContainer{
+    /* border-style: none; */
+    display: flex;
+    width: 400px;
+    height: 50px;
+    background-color: rgb(240, 218, 222);
+    border-radius: 3px;
+    /* position: relative; */
+    justify-content: flex-end;
+    margin-top: 20px;
+    /* color: black; */
+    border: 2px solid black;
+    
+
+}
+.inputContainer input{
+    border-style: none;
+    padding-left: 20px;
+    /* background-color: #fff; */
+    color: black;
+    outline: none;
+}
+.icon{
+    height: 190px;
+}
+.plus{
+    height: 30px;
+    /* width: fit-content; */
+    border-style: none;
+    float: right;
+    background-color: transparent;
+   
+}
+.add{
+    border-style: none;
+    background-color: transparent;
+}
+
+.itemName{
+    border: none;
+    border-style: none;
+    background-color: transparent;
+    width: 370px;
+   
+
+}
+
+
+.plus:hover{
+    transform: scale(1.1);
+}
+
+
+.showItem{
+    margin-top: 40px;
+    background-color: yellow;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 90px;
+    height: 30px;
+}
+.showButton{
+    /* margin-top: 40px; */
+    background-color: transparent;
+    color: black;
+    border-style: none;
+}
+
+.showTodo{
+    width: 100%;
+    margin-top: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+   
+}
+.eachTodo{
+    margin: 5px;
+    padding: 5px;
+    /* height: 100px; */
+    border-radius: 2px;
+    background-color:teal;
+    width: 390px;
+    display: flex;
+    /* flex-wrap: wrap; */
+    justify-content: space-between;
+    align-items: center;
+    color: black;
+}
+.iconPosition{
+    display: flex;
+    justify-content: flex-end;
+    /* position: relative; */
+
+}
